@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensional Jumper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Dimensional Jumper</h1>
+        <div class="slot-grid" id="slotGrid"></div>
+        <div class="betting-area">
+            <button class="bet-button" data-amount="1">$1</button>
+            <button class="bet-button" data-amount="5">$5</button>
+            <button class="bet-button" data-amount="10">$10</button>
+            <button id="spinButton">Spin</button>
+        </div>
+        <div class="balance">Balance: <span id="balance">100</span></div>
+        <div class="story-log">Story Progress: <span id="storyProgress">0/5 Artifacts</span></div>
+    </div>
+    <script src="js/symbols.js"></script>
+    <script src="js/narrative.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
